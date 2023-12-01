@@ -1,8 +1,6 @@
-import React,{memo} from "react";
+import React, { memo } from 'react'
 
-const Discover = () =>{
-    return (
-        <div>Discover</div>
-    )
-}
-export default memo(Discover);
+const Discover = memo(() => {
+  return <div className="text-red-500">Discover</div>
+})
+export default Discover
